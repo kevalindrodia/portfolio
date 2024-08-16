@@ -636,6 +636,11 @@ main {
   flex-direction: row;
 }
 
+.project-list a{
+  color: white;
+  text-decoration: underline;
+}
+
 /**
  * #testimonials 
  */
