@@ -43,11 +43,14 @@ margin: 4rem auto 2rem;
         padding: 1rem 5rem;
     }
 }
+
+
 /* General Styles for Navigation */
 .nav-wrapper{
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100vw;
     background-color: #000;
     z-index: 5;
@@ -330,6 +333,7 @@ margin: 4rem auto 2rem;
     line-height: 1.8;
     margin-bottom: 20px;
     text-align: left;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* Highlight Important Words with Custom Variable */
@@ -343,7 +347,7 @@ margin: 4rem auto 2rem;
     width: 350px;
     height: 350px;
     object-fit: cover;
-    border-radius: 50%; /* Circular image */
+    border-radius: 5%; /* Circular image */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Optional shadow for better focus */
 }
 
@@ -630,4 +634,14 @@ margin: 4rem auto 2rem;
 .contact-link .text {
     font-size: 0.85rem; /* Font size for link text */
     color: var(--main-text-color); /* Link text color */
+}
+
+
+@media (min-width: 2000px) {
+    .main-container{
+        padding: 1rem 30rem;
+    }
+    .nav-wrapper{
+        width: 65vw;
+    }
 }
