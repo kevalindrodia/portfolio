@@ -8,8 +8,7 @@
 }
 /* Hide scrollbar for Chrome, Safari, and Opera */
 ::-webkit-scrollbar {
-    width: 0px; /* Hide scrollbar width */
-    background: transparent; /* Optional: make background transparent */
+
 }
 
 /* Hide scrollbar for IE and Edge */
@@ -48,7 +47,8 @@ margin: 4rem auto 2rem;
 .nav-wrapper{
     position: fixed;
     top: 0;
-    width: 85vw;
+    left: 0;
+    width: 100vw;
     background-color: #000;
     z-index: 5;
 }
@@ -455,7 +455,7 @@ margin: 4rem auto 2rem;
     scroll-snap-type: x mandatory; /* Enable snap scrolling */
     gap: 10px; /* Space between cards */
     padding: 20px; /* Increased padding to prevent content from touching the edges */
-    margin: 0 2rem 0 0; /* Centering the container with margin */
+    margin: 0;
     align-items: flex-start; /* Align cards to the top */
 }
 
@@ -484,7 +484,7 @@ margin: 4rem auto 2rem;
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Slightly round the corners of the image */
     object-fit: cover; /* Cover the area without distortion */
-    height: 200px; /* Set a fixed height for images */
+    height: 300px; /* Set a fixed height for images */
 }
 
 /* Card Title Styling */
