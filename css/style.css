@@ -500,6 +500,7 @@ margin: 4rem auto 2rem;
     display: flex;
     gap: 15px; /* Increased space between tags */
     margin: 10px 0; /* Increased space below tags */
+    flex-wrap: wrap;
 }
 
 .tags-pill {
