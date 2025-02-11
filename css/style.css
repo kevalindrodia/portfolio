@@ -645,3 +645,18 @@ margin: 4rem auto 2rem;
         width: 65vw;
     }
 }
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensures cards wrap to next line */
+  justify-content: center; /* Centers cards */
+  gap: 16px; /* Adds spacing between cards */
+  max-width: 100%; /* Ensures it doesn't exceed viewport width */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
+
+Paste this at end of style.css
+
+
+(It is necessary to paste at the eof (end of file))
